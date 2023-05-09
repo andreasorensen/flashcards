@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const { createCard, evaluateGuess } = require('../src/card');
+const { createCard, evaluateGuess, } = require('../src/card');
 
 const { sampleData } = require('../test/sampleData')
 
@@ -38,8 +38,4 @@ describe('evaluateGuess', function(){
     const compareAnswers2 = evaluateGuess(incorrectGuess, correctAnswer);
     expect(compareAnswers2).to.equal('Incorrect!')
   })
-
-  
-
-
 });

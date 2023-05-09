@@ -14,8 +14,7 @@ const evaluateGuess = (guess, correctAnswer) => {
   }; 
 }
 
-
 module.exports = { 
   createCard,
-  evaluateGuess 
+  evaluateGuess,
 };
