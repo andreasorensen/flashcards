@@ -1,12 +1,12 @@
-const { sampleData } = require("../test/sampleData");
-
-
 
 const createDeck = cards => {
   let deck = cards;
   return deck
 }
 
+const countDeck = deck => deck.length
+
 module.exports = { 
-  createDeck
+  createDeck,
+  countDeck
 };
